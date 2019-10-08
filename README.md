@@ -1,12 +1,41 @@
 # tools
-run docker
+
+## docker-setup
+first docker build.
 ```
 docker-compose up -d
 ```
-
-serve
+and sh login
 ```
 docker-compose exec app sh
 /app cd tools
-/app npm run serve
 ```
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Run your tests
+```
+npm run test
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
+
