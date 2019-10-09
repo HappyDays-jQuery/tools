@@ -9,12 +9,6 @@
             </v-list-item-icon>
             <v-list-item-title>Home</v-list-item-title>
           </v-list-item>
-          <v-list-item link to="/about">
-            <v-list-item-icon>
-              <v-icon>mdi-panda</v-icon>
-            </v-list-item-icon>
-            <v-list-item-title>About</v-list-item-title>
-          </v-list-item>
           <v-list-item link to="/decode">
             <v-list-item-icon>
               <v-icon>mdi-dog</v-icon>
@@ -25,7 +19,13 @@
             <v-list-item-icon>
               <v-icon>mdi-cat</v-icon>
             </v-list-item-icon>
-            <v-list-item-title>Encode</v-list-item-title>
+            <v-list-item-title>Encoder</v-list-item-title>
+          </v-list-item>
+          <v-list-item link to="/about">
+            <v-list-item-icon>
+              <v-icon>mdi-panda</v-icon>
+            </v-list-item-icon>
+            <v-list-item-title>About</v-list-item-title>
           </v-list-item>
         </v-list>
       </v-navigation-drawer>
