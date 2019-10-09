@@ -5,6 +5,10 @@ import About from './views/About.vue'
 import Encode from './views/Encode.vue'
 import Decode from './views/Decode.vue'
 
+//components
+import Info from './components/Information'
+Vue.component('info-text', Info)
+
 
 Vue.use(Router)
 
