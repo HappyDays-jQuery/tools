@@ -45,7 +45,7 @@
         clearable
         counter
         filled
-        label="Decoded Result"
+        label="Encoded Result"
         rounded
         row-height="40"
         rows="4"
