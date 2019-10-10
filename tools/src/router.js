@@ -5,6 +5,10 @@ import About from './views/About.vue'
 import Encode from './views/Encode.vue'
 import Decode from './views/Decode.vue'
 
+//Utils
+import common from './js/common'
+Vue.mixin(common)
+
 //components
 import Info from './components/Information'
 Vue.component('info-text', Info)
