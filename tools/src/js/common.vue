@@ -2,7 +2,7 @@
   export default {
     methods: {
       debug(msg) {
-        if (process.env.MIX_DEBUG) {
+        if (process.env.VUE_APP_DEBUG) {
           // eslint-disable-next-line no-console
           console.log(msg)
         }
